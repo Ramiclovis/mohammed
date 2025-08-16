@@ -1,0 +1,24 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient background matching project colors -->
+  <defs>
+    <linearGradient id="projectGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(1,190,237,1);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(0,6,10,1);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Blue background square with gradient and rounded corners -->
+  <rect x="0" y="0" width="64" height="64" rx="8" ry="8" fill="url(#projectGradient)"/>
+  
+  <!-- Subtle shadow effect -->
+  <rect x="4" y="4" width="56" height="56" rx="6" ry="6" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  
+  <!-- MK text with better typography -->
+  <text x="32" y="42" 
+        font-family="'Segoe UI', Arial, sans-serif" 
+        font-size="22" 
+        font-weight="700" 
+        fill="white" 
+        text-anchor="middle"
+        letter-spacing="1px">MK</text>
+</svg>
